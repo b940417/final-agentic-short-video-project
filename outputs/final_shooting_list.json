@@ -1,0 +1,384 @@
+{
+  "project_title": "國立臺南大學資訊工程學系形象宣傳影片",
+  "reviewer_status_interpretation": "REJECTED_NEEDS_REVISION",
+  "source_review_file": "OneDrive/桌面/reviewer_feedback.json",
+  "source_visual_file": "OneDrive/桌面/visual_output.json",
+  "total_duration_seconds": 60,
+  "final_voiceover_total_char_count_zh": 163,
+  "voiceover_pacing_note": "本版完整旁白共 163 字，符合 reviewer 建議之 150-180 字舒適語速範圍，並保留情緒停頓與片尾 Logo 停留空間。",
+  "creative_direction": "真實校園形象片；自然光、暖色調、克制科技感疊圖。所有空間、設備、人物、螢幕內容與 Logo 皆須以系方確認和授權為準；未確認者改用一般「學習空間／討論空間／實作畫面」描述。",
+  "full_voiceover_script": "AI時代，每一次選擇，都是通往未來的起點。在南大資工，從程式、資料結構到系統思維，打下扎實基礎。從一行程式到一個專題，學生在討論、實作與修正中，把想法做出來。面對AI與資料應用，學習不只停在概念，而是透過實作理解問題。在合作與交流裡，練習表達、傾聽與調整，也累積迎向挑戰的力量。加入南大資工，從這裡開始，打造屬於你的資訊未來。",
+  "final_scenes": [
+    {
+      "scene_number": 1,
+      "time_range": "0-8 秒",
+      "duration_seconds": 8,
+      "srt_timecode": "00:00:00,000 --> 00:00:08,000",
+      "scene_title": "AI時代，從選擇開始",
+      "final_narration": "AI時代，每一次選擇，都是通往未來的起點。",
+      "narration_char_count_zh": 21,
+      "subtitle": "AI時代，從選擇開始",
+      "shot_type": [
+        "開場建立鏡頭 Establishing Shot",
+        "低角度校園推進鏡頭 Dolly-in",
+        "學生背影／側臉／手部特寫",
+        "輕量科技感疊圖 Motion Graphic Overlay"
+      ],
+      "final_visual_plan": "以經校方確認可拍攝之校園代表性空景開場，優先使用紅樓、校園步道或綠地等真實場域。學生以背影、側臉或手部動作走入畫面，打開筆電或平板；螢幕僅呈現事先製作、無個資的抽象 AI 節點與程式碼示意畫面。整體維持自然光、暖色調與啟程感。",
+      "b_roll": [
+        "經校方確認可拍攝之紅樓或校園入口廣角空景",
+        "學生背影走過校園步道或代表性場景",
+        "手部打開筆電、滑動平板、輸入關鍵字近景",
+        "無個資、無商標爭議的 AI 節點與資料流示意疊圖",
+        "學生看向校園或遠方的側臉／背影特寫"
+      ],
+      "shooting_checklist": [
+        "確認校園場地拍攝許可",
+        "可識別學生須簽肖像授權；若未完成，改拍背影、手部或景深模糊",
+        "螢幕示意檔不得含姓名、帳號、Email、學號、課程平台或私有 repository",
+        "AI／HUD 疊圖素材需有可公開發布授權"
+      ],
+      "compliance_notes": {
+        "clearance_required": [
+          "校園場景拍攝許可",
+          "演員肖像授權",
+          "AI／HUD 疊圖授權"
+        ],
+        "fact_check_points": [
+          "紅樓或校園畫面須為實際可拍攝地點"
+        ],
+        "screen_content_rule": "僅使用無個資示意畫面；畫面為示意，實際內容以系方審核版本為準。",
+        "risk_mitigation": "避免校徽、Logo 特寫，除非使用校方正式檔案與規範。"
+      }
+    },
+    {
+      "scene_number": 2,
+      "time_range": "8-18 秒",
+      "duration_seconds": 10,
+      "srt_timecode": "00:00:08,000 --> 00:00:18,000",
+      "scene_title": "南大資工：打好資訊基礎",
+      "final_narration": "在南大資工，從程式、資料結構到系統思維，打下扎實基礎。",
+      "narration_char_count_zh": 27,
+      "subtitle": "南大資工：打好資訊基礎",
+      "shot_type": [
+        "課堂中景 Medium Shot",
+        "肩後鏡頭 Over-the-shoulder",
+        "螢幕特寫 Insert Shot",
+        "教室橫移鏡頭 Slider Shot"
+      ],
+      "final_visual_plan": "拍攝經系方確認之實際授課或學習空間；若無法確認為資工專屬電腦教室，則以一般學習空間呈現。畫面聚焦學生練習、白板流程圖、演算法概念與程式碼示意。若出現教師角色：真實教師需取得本人與校方同意；若由演員演出，不加真實姓名、職稱或任何讓觀眾誤認為實際師資的字幕。",
+      "b_roll": [
+        "經系方確認之教室、電腦教室或一般學習空間全景",
+        "教學者或引導者指向白板／投影幕的手部或背影",
+        "學生鍵盤輸入程式碼近景",
+        "IDE 或流程圖示意畫面，內容須預先製作且經審核",
+        "筆記本流程圖、堆疊、樹或排序步驟特寫",
+        "學生專注聽講或看螢幕的側面鏡頭"
+      ],
+      "shooting_checklist": [
+        "確認拍攝教室是否可稱為南大資工空間；若未確認，文案與檔名使用「學習空間」",
+        "教師本人或演員完成肖像授權",
+        "演員不得被字幕標示為真實教師或特定職稱",
+        "程式碼與投影片為示意內容，需系方審核"
+      ],
+      "compliance_notes": {
+        "clearance_required": [
+          "場地拍攝許可",
+          "教師／演員肖像授權",
+          "投影片與程式碼示意素材授權"
+        ],
+        "fact_check_points": [
+          "是否為經系方確認之教室或學習空間"
+        ],
+        "screen_content_rule": "螢幕與投影不得出現課程平台、學生名單、帳號、未公開教材或第三方敏感資料。",
+        "risk_mitigation": "使用「引導者／教學情境」執行說明，不宣稱名師、排名或師資成果。"
+      }
+    },
+    {
+      "scene_number": 3,
+      "time_range": "18-30 秒",
+      "duration_seconds": 12,
+      "srt_timecode": "00:00:18,000 --> 00:00:30,000",
+      "scene_title": "從程式到專題，讓想法成真",
+      "final_narration": "從一行程式到一個專題，學生在討論、實作與修正中，把想法做出來。",
+      "narration_char_count_zh": 31,
+      "subtitle": "從程式到專題，讓想法成真",
+      "shot_type": [
+        "團隊討論中景 Group Medium Shot",
+        "產品操作特寫 Close-up",
+        "俯拍桌面 Top Shot",
+        "快速蒙太奇 Montage"
+      ],
+      "final_visual_plan": "轉入經系方確認之討論空間、專題空間或一般實作場域。以草圖、便利貼、白板架構、手機原型與開發板示意串接「想法成形」的過程。所有 APP、網站、Git、UI、裝置回傳畫面皆使用事先製作的無個資示意檔，不呈現未公開學生專題或私有 repository。",
+      "b_roll": [
+        "學生小組圍桌討論與指向筆電螢幕",
+        "白板或便利貼上的 APP 流程與系統架構示意",
+        "手機展示經審核的 APP 或網站原型示意畫面",
+        "Arduino、Raspberry Pi、感測器或智慧裝置示意操作",
+        "去識別化 Git commit、UI 設計稿、網頁前端示意特寫",
+        "裝置亮燈、數據回傳或 Demo 成功執行的手部近景"
+      ],
+      "shooting_checklist": [
+        "確認專題／討論空間拍攝許可；未確認則標示為一般討論空間",
+        "所有可識別學生完成肖像授權",
+        "Demo 與 Git 畫面須為示意或已取得作品權利人授權",
+        "移除姓名、學號、Email、專題名稱、私有 repo 與未公開成果"
+      ],
+      "compliance_notes": {
+        "clearance_required": [
+          "場地許可",
+          "學生肖像授權",
+          "APP／網站 Demo 與程式碼示意授權",
+          "硬體原型權利確認"
+        ],
+        "fact_check_points": [
+          "是否能稱為專題實驗室；若不能，統一用討論空間／實作空間"
+        ],
+        "screen_content_rule": "畫面為示意，實際內容以系方審核版本為準。",
+        "risk_mitigation": "避免暗示特定學生作品或專題成果已公開、獲獎或代表系上整體成果。"
+      }
+    },
+    {
+      "scene_number": 4,
+      "time_range": "30-42 秒",
+      "duration_seconds": 12,
+      "srt_timecode": "00:00:30,000 --> 00:00:42,000",
+      "scene_title": "實作AI與資料應用",
+      "final_narration": "面對AI與資料應用，學習不只停在概念，而是透過實作理解問題。",
+      "narration_char_count_zh": 30,
+      "subtitle": "實作AI與資料應用",
+      "shot_type": [
+        "螢幕宏觀特寫 Macro Insert",
+        "實作空間中景 Lab Medium Shot",
+        "雙人協作肩後鏡頭 Over-the-shoulder Two-shot",
+        "資料視覺化動態疊圖 Data Visualization Overlay"
+      ],
+      "final_visual_plan": "聚焦 AI 與資料應用的學習情境，但弱化未經查證的設備與實驗室宣稱。若系方確認有實際 AI／資料分析空間與設備，可拍攝其真實場域；若未確認，改用一般實作空間與筆電工作畫面。螢幕呈現經審核的 Notebook、圖表、模型訓練曲線與影像辨識示意，不宣稱為既有研究成果或保證成效。",
+      "b_roll": [
+        "學生在經確認的實作空間檢視 AI 或資料分析示意結果",
+        "螢幕顯示無個資 Jupyter Notebook、訓練曲線或圖表示意",
+        "Webcam 或攝影機進行經授權、低敏感的辨識測試示意",
+        "學生討論混淆矩陣、折線圖、熱區圖或分類結果示意",
+        "鍵盤輸入、執行程式、進度條跑動近景",
+        "已授權 AI 節點、資料流、辨識框與圖表線條後製疊圖"
+      ],
+      "shooting_checklist": [
+        "若使用「AI 實驗室／資料分析實驗室」稱呼，須取得系方書面確認；否則改稱實作空間",
+        "不得拍攝真實帳號、資料集路徑、研究資料、課程平台或未公開模型",
+        "Notebook、圖表、資料集、辨識框皆須為示意或已授權素材",
+        "第三方素材庫／AI 生成疊圖須確認可用於學校宣傳與公開發布"
+      ],
+      "compliance_notes": {
+        "clearance_required": [
+          "空間與設備事實確認",
+          "學生肖像授權",
+          "Notebook／圖表／資料集／AI 疊圖授權"
+        ],
+        "fact_check_points": [
+          "是否可宣稱 AI 或資料分析實驗室",
+          "是否可拍攝雙螢幕或特定設備"
+        ],
+        "screen_content_rule": "畫面為示意，實際內容以系方審核版本為準；不得含個資或未公開研究內容。",
+        "risk_mitigation": "不使用「高效能」等未查證形容；改以「經確認之設備」或一般實作畫面呈現。"
+      }
+    },
+    {
+      "scene_number": 5,
+      "time_range": "42-52 秒",
+      "duration_seconds": 10,
+      "srt_timecode": "00:00:42,000 --> 00:00:52,000",
+      "scene_title": "合作學習，挑戰中成長",
+      "final_narration": "在合作與交流裡，練習表達、傾聽與調整，也累積迎向挑戰的力量。",
+      "narration_char_count_zh": 30,
+      "subtitle": "合作學習，挑戰中成長",
+      "shot_type": [
+        "互動中景 Interactive Medium Shot",
+        "模擬展示鏡頭 Simulated Showcase Coverage",
+        "手持跟拍 Handheld Follow Shot",
+        "情緒特寫 Reaction Close-up"
+      ],
+      "final_visual_plan": "將原「競賽現場感」改為「成果交流或模擬展示情境」。可拍攝小組討論、引導者提供建議、學生簡報、海報或展示桌。若使用真實競賽、成果展、交流活動照片或影片，需有主辦單位、拍攝者與所有可識別人物授權，且不得暗示未查證的競賽成績或參賽紀錄。",
+      "b_roll": [
+        "真實教師或授權引導者／演員在學生旁提供建議；不標示未經確認姓名職稱",
+        "小組成員互相討論、比對筆記與修改程式示意",
+        "學生於教室或討論空間進行模擬專題發表",
+        "成果交流或模擬展示桌：筆電、海報、展示板、作品原型",
+        "點頭、微笑、擊掌或鼓掌的情緒鏡頭",
+        "走廊或交流空間中自然交談側拍"
+      ],
+      "shooting_checklist": [
+        "真實教師需本人與校方同意；演員不得被包裝成真實師資",
+        "所有可識別人物完成肖像授權",
+        "既有活動素材需確認拍攝者、主辦單位與人物授權",
+        "展示海報與簡報不得含未公開專題、第三方機密資料或未授權圖片",
+        "文案不提競賽獎項、排名或成果承諾"
+      ],
+      "compliance_notes": {
+        "clearance_required": [
+          "教師／演員／學生肖像授權",
+          "活動照片影片授權",
+          "海報與簡報素材授權"
+        ],
+        "fact_check_points": [
+          "若使用真實活動素材，需可查證活動名稱、日期、授權範圍"
+        ],
+        "screen_content_rule": "展示畫面與簡報為示意或經授權版本，實際內容以系方審核版本為準。",
+        "risk_mitigation": "使用「成果交流或模擬展示情境」，不使用「競賽現場感」作為預設要求。"
+      }
+    },
+    {
+      "scene_number": 6,
+      "time_range": "52-60 秒",
+      "duration_seconds": 8,
+      "srt_timecode": "00:00:52,000 --> 00:01:00,000",
+      "scene_title": "加入南大資工，打造資訊未來",
+      "final_narration": "加入南大資工，從這裡開始，打造屬於你的資訊未來。",
+      "narration_char_count_zh": 24,
+      "subtitle": "加入南大資工，打造資訊未來",
+      "shot_type": [
+        "收束建立鏡頭 Closing Establishing Shot",
+        "群像中遠景 Wide Group Shot",
+        "正面或側面 Hero Shot",
+        "高角度校園鏡頭 High-angle Shot"
+      ],
+      "final_visual_plan": "回到經校方確認可拍攝之校園主視覺。學生團隊從室內學習空間走向校園，最後在代表性地點形成乾淨、正向的群像。片尾僅使用校方提供的正式 Logo、校徽、校名與系名識別檔案，依規範色與安全距離排版；不得從網頁截圖或自行重繪。",
+      "b_roll": [
+        "學生團隊從教室、討論空間或實作場域走出",
+        "紅樓或校園代表性地點前的學生群像",
+        "學生手持筆電、開發板或示意作品的中景",
+        "校園高角度或廣角空景作為片尾背景",
+        "學生看向鏡頭或遠方的 Hero Shot；未授權者改背影或景深模糊",
+        "校方正式校名、系名、Logo 或校徽識別收尾畫面"
+      ],
+      "shooting_checklist": [
+        "確認校園地標拍攝許可與品牌識別使用規範",
+        "群像所有可識別人物完成肖像授權",
+        "片尾 Logo、校徽、校名與系名使用校方正式檔案",
+        "保留 1-2 秒 Logo 安全停留時間，避免旁白壓滿最後一秒"
+      ],
+      "compliance_notes": {
+        "clearance_required": [
+          "校園場地許可",
+          "群像肖像授權",
+          "校方正式 Logo／校徽／系名識別授權"
+        ],
+        "fact_check_points": [
+          "校名、系名、Logo、校徽版本與規範色是否正確"
+        ],
+        "screen_content_rule": "片尾背景乾淨，避免出現未授權人物或第三方商標。",
+        "risk_mitigation": "招生召喚保留形象語氣，不承諾就業、得獎、設備或成果。"
+      }
+    }
+  ],
+  "srt_template": "1\n00:00:00,000 --> 00:00:08,000\nAI時代，從選擇開始\n\n2\n00:00:08,000 --> 00:00:18,000\n南大資工：打好資訊基礎\n\n3\n00:00:18,000 --> 00:00:30,000\n從程式到專題，讓想法成真\n\n4\n00:00:30,000 --> 00:00:42,000\n實作AI與資料應用\n\n5\n00:00:42,000 --> 00:00:52,000\n合作學習，挑戰中成長\n\n6\n00:00:52,000 --> 00:01:00,000\n加入南大資工，打造資訊未來\n",
+  "material_clearance_table_template": [
+    {
+      "item": "校方 Logo／校徽／校名／系名識別",
+      "source": "校方正式提供檔案",
+      "right_holder_or_approver": "校方授權窗口",
+      "usage_scope": "本宣傳影片、公開發布、社群與招生用途（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認",
+      "status": "must_clear"
+    },
+    {
+      "item": "紅樓、校園空景、校園地標",
+      "source": "實地拍攝",
+      "right_holder_or_approver": "校方／場地管理單位",
+      "usage_scope": "本宣傳影片公開發布（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認",
+      "status": "must_clear"
+    },
+    {
+      "item": "教室、討論空間、實作空間",
+      "source": "實地拍攝",
+      "right_holder_or_approver": "系方／場地管理單位",
+      "usage_scope": "本宣傳影片公開發布（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認",
+      "status": "must_clear"
+    },
+    {
+      "item": "學生、教師、演員肖像",
+      "source": "實地拍攝或既有活動素材",
+      "right_holder_or_approver": "本人；未成年者另需法定代理人（如適用）",
+      "usage_scope": "本宣傳影片、網路公開發布、招生宣傳（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認",
+      "status": "must_clear"
+    },
+    {
+      "item": "既有競賽／成果交流活動照片影片",
+      "source": "主辦單位或拍攝者提供",
+      "right_holder_or_approver": "拍攝者、主辦單位、照片中可識別人物",
+      "usage_scope": "本宣傳影片公開發布（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認；未全數確認則不用",
+      "status": "conditional"
+    },
+    {
+      "item": "APP／網站 Demo、程式碼、Notebook、模型圖表",
+      "source": "事先製作之無個資示意檔或已授權作品",
+      "right_holder_or_approver": "製作者／系方審核窗口／作品權利人",
+      "usage_scope": "作為示意畫面使用（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認",
+      "status": "must_clear"
+    },
+    {
+      "item": "AI 資料流、HUD、節點、辨識框、圖表動畫",
+      "source": "自製或合法素材庫／AI 生成素材",
+      "right_holder_or_approver": "素材提供方或製作者",
+      "usage_scope": "學校宣傳片與公開發布可用（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認",
+      "status": "must_clear"
+    },
+    {
+      "item": "開發板、感測器、硬體原型、展示海報",
+      "source": "實地拍攝／自製示意道具",
+      "right_holder_or_approver": "作品權利人／系方審核窗口",
+      "usage_scope": "本宣傳影片示意使用（待填）",
+      "expiry": "待填",
+      "public_release_ok": "待確認",
+      "status": "must_clear"
+    }
+  ],
+  "global_production_notes": [
+    "所有螢幕畫面一律使用事先製作、無個資、無私有 repository、無未公開專題內容的示意檔。",
+    "畫面為示意，實際內容以系方審核版本為準；避免讓觀眾理解為特定研究成果、得獎成果或設備承諾。",
+    "凡可識別人物須簽肖像授權；既有照片影片需同步確認拍攝者、主辦單位與每位可識別人物授權。",
+    "教師角色若為演員，不使用真實教師姓名、職稱或導致誤認的字幕；若是真實教師，需本人與校方同意。",
+    "未經查證不得使用「AI 實驗室」「高效能電腦」「競賽成果」等暗示；改用經確認之實際空間、設備、活動素材，或一般學習／討論／實作畫面。",
+    "片尾 Logo、校徽、校名與系名識別須使用校方正式檔案與規範色，不得截圖或自行重繪。"
+  ],
+  "final_material_checklist": {
+    "permissions_and_clearance": [
+      "校園與室內場地拍攝許可完成",
+      "Logo／校徽／校名／系名識別正式檔案取得並確認使用規範",
+      "學生、教師、演員肖像授權書完成歸檔",
+      "既有活動照片影片完成拍攝者、主辦單位與人物授權；未完成則剔除",
+      "第三方素材、素材庫、AI 生成疊圖確認可公開發布與商標／著作權限制"
+    ],
+    "screen_and_data_safety": [
+      "所有螢幕畫面移除姓名、學號、Email、帳號、課程平台與私有 repository",
+      "程式碼、Notebook、APP Demo、圖表、資料集皆為示意或已授權版本",
+      "未公開學生專題、研究資料、客戶資料、第三方敏感資料不得入鏡",
+      "拍攝前鎖定桌面通知、瀏覽器帳號與系統個資提示"
+    ],
+    "fact_check": [
+      "可稱為南大資工空間的場域均有系方確認",
+      "設備、實驗室、活動素材與展示內容均無誇大或未查證宣稱",
+      "成果交流／模擬展示不暗示競賽成績、排名或保證成果",
+      "所有字幕與旁白不含頂尖、第一、保證就業、名師陣容等高風險宣稱"
+    ],
+    "shoot_day": [
+      "準備筆電、平板、手機、開發板、感測器、白板、便利貼、麥克筆、海報架",
+      "準備無個資示意檔：IDE、Notebook、APP、網站、Git、圖表、辨識框",
+      "準備校園空景、教室學習、討論實作、AI 資料示意、成果交流、片尾群像六大段落鏡頭",
+      "每場景拍攝橫式主鏡頭與可裁切社群版安全構圖",
+      "現場法遵負責人逐項核對素材檢核表後再拍攝正臉、Logo 與螢幕特寫"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "script_output.json": {
+    "project_title": "國立臺南大學資訊工程學系形象宣傳影片",
+    "total_duration_seconds": 60,
+    "counting_rule": "旁白字數估算不含標點符號與空白；英文字母逐字計算。每秒字數上限為 4 字。",
+    "scenes": [
+      {
+        "scene_number": 1,
+        "time_range": "0-8 秒",
+        "duration_seconds": 8,
+        "max_character_count": 32,
+        "narration": "AI正在改變生活，也改變你選擇未來的方式。",
+        "estimated_character_count": 19,
+        "subtitle": "AI時代，從選擇開始"
+      },
+      {
+        "scene_number": 2,
+        "time_range": "8-18 秒",
+        "duration_seconds": 10,
+        "max_character_count": 40,
+        "narration": "在南大資工，從程式、資料結構到演算法，穩穩打好資訊基礎。",
+        "estimated_character_count": 24,
+        "subtitle": "南大資工：打好資訊基礎"
+      },
+      {
+        "scene_number": 3,
+        "time_range": "18-30 秒",
+        "duration_seconds": 12,
+        "max_character_count": 48,
+        "narration": "把課堂理論化為實作，開發APP、網站與智慧裝置，讓想法成為作品。",
+        "estimated_character_count": 28,
+        "subtitle": "從程式到專題，讓想法成真"
+      },
+      {
+        "scene_number": 4,
+        "time_range": "30-42 秒",
+        "duration_seconds": 12,
+        "max_character_count": 48,
+        "narration": "探索AI、機器學習與資料分析，南大資工帶你實作前瞻科技。",
+        "estimated_character_count": 25,
+        "subtitle": "實作AI與資料應用"
+      },
+      {
+        "scene_number": 5,
+        "time_range": "42-52 秒",
+        "duration_seconds": 10,
+        "max_character_count": 40,
+        "narration": "在師長引導與同儕合作中，專題、競賽與交流陪你持續成長。",
+        "estimated_character_count": 24,
+        "subtitle": "合作學習，挑戰中成長"
+      },
+      {
+        "scene_number": 6,
+        "time_range": "52-60 秒",
+        "duration_seconds": 8,
+        "max_character_count": 32,
+        "narration": "加入國立臺南大學資工系，動手打造AI與資訊未來。",
+        "estimated_character_count": 22,
+        "subtitle": "加入南大資工，打造資訊未來"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "compliance_score": 82,
+  "summary": "整體結構與時長大致合規；total_duration_seconds 為 60 秒，落在 55-65 秒範圍內。主要風險集中在旁白完整稿缺漏導致語速無法最終驗證、真實校園／Logo／校徽／學生與教師肖像授權、競賽或成果展既有素材授權，以及部分表述可能被觀眾理解為實際師資、設備或成果承諾。",
+  "risk_list": [
+    {
+      "risk_id": "R001",
+      "category": "duration_compliance",
+      "severity": "low",
+      "finding": "總片長標示為 60 秒，且各場景時間範圍為 0-8、8-18、18-30、30-42、42-52、52-60 秒，符合 55-65 秒要求。",
+      "evidence": [
+        "total_duration_seconds: 60",
+        "6 個場景分段覆蓋 0-60 秒"
+      ],
+      "compliance_status": "pass"
+    },
+    {
+      "risk_id": "R002",
+      "category": "voiceover_pacing",
+      "severity": "medium",
+      "finding": "目前檔案只提供 subtitle_reference，未提供完整旁白稿，因此無法最終判定旁白字數是否過多。若旁白直接擴寫 visual_plan 的大量資訊，例如同時講課程、專題、AI、競賽、成果與招生召喚，60 秒內容易造成語速偏快。",
+      "evidence": [
+        "visual_output.json 未含完整 narration 或 voiceover_script 欄位",
+        "每段 visual_plan 資訊密度高，若轉成旁白可能超出 60 秒可舒適承載量"
+      ],
+      "compliance_status": "needs_revision"
+    },
+    {
+      "risk_id": "R003",
+      "category": "factual_claim_risk",
+      "severity": "medium",
+      "finding": "文案雖未直接宣稱排名、得獎或特定名師，但出現『南大資工電腦教室』『南大資工專題實驗室』『AI或資料分析實驗室』『高效能電腦或雙螢幕工作站』『競賽或成果展』等內容；若實際拍攝場域、設備或活動紀錄不是該系真實資源，可能構成誤導或虛構事實風險。",
+      "evidence": [
+        "asset_list 包含南大資工電腦教室、專題實驗室、AI或資料分析實驗室、高效能電腦或雙螢幕工作站",
+        "scene 5 提及競賽或成果展桌面與競賽或交流活動照片/影片素材"
+      ],
+      "compliance_status": "needs_fact_check"
+    },
+    {
+      "risk_id": "R004",
+      "category": "fictitious_faculty_or_ranking",
+      "severity": "low",
+      "finding": "目前未出現『頂尖排名』『全國第一』『名師陣容』等高風險宣稱，也沒有具名教師或虛構教師履歷。但 scene 2、scene 5 使用『老師』『授課教師』『師長引導』等畫面設定，若由演員扮演真實教師角色，需避免讓觀眾誤認為實際師資。",
+      "evidence": [
+        "scene 2: 授課教師或教學情境演員",
+        "scene 5: 老師站在學生旁指導、教師與學生互動場景"
+      ],
+      "compliance_status": "conditional_pass"
+    },
+    {
+      "risk_id": "R005",
+      "category": "copyright_and_trademark",
+      "severity": "high",
+      "finding": "視覺素材清單包含校名、系名識別、Logo、校徽、競賽或交流活動照片/影片素材、AI HUD 疊圖、資料流、圖表動畫、程式碼範例畫面、APP/網站 Demo 畫面等；這些素材可能涉及著作權、商標權或校方識別使用規範。",
+      "evidence": [
+        "asset_list: 片尾Logo或校徽授權素材",
+        "global_asset_list: 國立臺南大學與資訊工程學系Logo/校名/系名識別素材",
+        "global_asset_list: 競賽或成果展示素材、AI資料流、節點、辨識框、HUD與圖表動態疊圖素材"
+      ],
+      "compliance_status": "needs_clearance"
+    },
+    {
+      "risk_id": "R006",
+      "category": "portrait_and_privacy",
+      "severity": "high",
+      "finding": "多個場景安排學生正臉、教師指導、群像、Hero Shot、鼓掌微笑等可識別人物畫面，且螢幕可能拍到帳號、課程平台、Git commit、資料集、程式碼或專題內容。若未取得肖像同意與螢幕內容清理，存在肖像權、個資與專題智慧財產風險。",
+      "evidence": [
+        "scene 1: 學生特寫",
+        "scene 2: 授課教師或教學情境演員、學生演員數位",
+        "scene 5: 教師與學生互動、競賽或交流活動照片/影片素材",
+        "scene 6: 學生團隊演員4-6位、正面凝視鏡頭 Hero Shot",
+        "production_notes 已提醒避免拍到個資與未授權帳號"
+      ],
+      "compliance_status": "needs_clearance"
+    },
+    {
+      "risk_id": "R007",
+      "category": "stock_or_third_party_visuals",
+      "severity": "medium",
+      "finding": "科技感疊圖、AI 節點、辨識框、HUD、資料視覺化後製素材若使用網路模板、素材庫、AI 生成素材或第三方套件畫面，需確認授權範圍可用於學校宣傳片與公開發布。",
+      "evidence": [
+        "scene 1、scene 4 與 global_asset_list 多次提及 AI 節點、資料流、HUD、辨識框與圖表動態疊圖素材"
+      ],
+      "compliance_status": "needs_clearance"
+    },
+    {
+      "risk_id": "R008",
+      "category": "screen_content_accuracy",
+      "severity": "medium",
+      "finding": "Jupyter Notebook、模型訓練曲線、影像辨識、混淆矩陣、Git commit、APP Demo 等畫面若為臨時製作或示意畫面，需標示或控制內容，避免被理解為該系既有研究成果、特定課程成效或學生作品成果。",
+      "evidence": [
+        "scene 3: Git commit、UI設計稿、APP或網站Demo畫面",
+        "scene 4: Jupyter Notebook、模型訓練曲線、資料視覺化圖表、影像辨識測試"
+      ],
+      "compliance_status": "needs_revision"
+    }
+  ],
+  "revision_request": [
+    {
+      "priority": "must_fix",
+      "request": "補上完整旁白稿與每段字數，並將 60 秒旁白控制在舒適語速內。建議中文旁白約 150-180 字為上限；若需保留情緒停頓與片尾 Logo，宜更接近 140-160 字。"
+    },
+    {
+      "priority": "must_fix",
+      "request": "建立素材授權表，逐項標註來源、授權人、授權範圍、可用期限與是否可公開發布；特別涵蓋校徽、Logo、校名系名識別、紅樓或校園場景、競賽照片/影片、HUD/AI疊圖、APP/網站Demo、程式碼與圖表素材。"
+    },
+    {
+      "priority": "must_fix",
+      "request": "所有可識別學生、教師、演員、競賽參與者需簽署肖像授權；若使用既有活動照片或影片，需確認照片中每位可識別人物與拍攝者/主辦單位授權。"
+    },
+    {
+      "priority": "must_fix",
+      "request": "將『授課教師或教學情境演員』改為更安全的執行說明：若由演員演出，避免使用真實教師姓名、職稱或可讓觀眾誤認為真實師資的字幕；若拍攝真實教師，需取得本人與校方同意。"
+    },
+    {
+      "priority": "must_fix",
+      "request": "刪除或弱化未經查證的資源暗示。『AI或資料分析實驗室』『高效能電腦或雙螢幕工作站』『競賽或成果展』等，需改為『經系方確認之實際空間/設備/活動素材』；若無法確認，改用一般『學習空間』『討論空間』『實作畫面』。"
+    },
+    {
+      "priority": "should_fix",
+      "request": "所有螢幕畫面使用事先製作的無個資示意檔，移除帳號、姓名、學號、Email、課程平台、私有 repository、未公開專題內容與第三方資料集敏感資訊。"
+    },
+    {
+      "priority": "should_fix",
+      "request": "若程式碼、Notebook、模型圖表或 APP Demo 是示意內容，請在製作備註中標註『畫面為示意，實際內容以系方審核版本為準』，避免被視為真實成果宣稱。"
+    },
+    {
+      "priority": "should_fix",
+      "request": "片尾 Logo、校徽、校名系名識別請使用校方提供的正式檔案與規範色，不要從網頁截圖或自行重繪。"
+    },
+    {
+      "priority": "should_fix",
+      "request": "將視覺需求中的『競賽現場感』改成『成果交流或模擬展示情境』，除非有真實競賽活動授權與可查證資料，避免暗示實際競賽成績或參賽紀錄。"
+    },
+    {
+      "priority": "nice_to_have",
+      "request": "在每個場景新增 compliance_notes 欄位，例如：授權需求、是否需肖像同意、是否為示意畫面、需系方確認的事實點，方便後續製片與法遵審核。"
+    }
+  ]
+}

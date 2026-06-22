@@ -1,0 +1,79 @@
+{
+  "project_title": "國立臺南大學資訊工程學系形象宣傳影片",
+  "target_audience": "高中生",
+  "core_message": "理論與實務並重，動手打造 AI 與資訊未來。",
+  "total_duration_seconds": 60,
+  "duration_requirement": {
+    "minimum_seconds": 55,
+    "maximum_seconds": 65,
+    "status": "valid"
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "time_range": "0-8 秒",
+      "start_second": 0,
+      "end_second": 8,
+      "duration_seconds": 8,
+      "scene_title": "開場吸引：AI 時代的問題意識",
+      "scene_purpose": "快速抓住高中生注意力，建立資訊科技正在改變未來、且與自身選擇相關的情境。",
+      "outline": "以 AI、智慧生活、資料運算與科技應用等元素開場，營造未來感與好奇心，帶出資訊科技創造者的想像。"
+    },
+    {
+      "scene_number": 2,
+      "time_range": "8-18 秒",
+      "start_second": 8,
+      "end_second": 18,
+      "duration_seconds": 10,
+      "scene_title": "認識南大資工：學習從基礎開始",
+      "scene_purpose": "呈現學系核心學習內容，強調理論基礎與資訊素養的重要性。",
+      "outline": "介紹程式設計、資料結構、演算法、計算機系統與網路等基礎訓練，傳達打好底子才能發展進階應用。"
+    },
+    {
+      "scene_number": 3,
+      "time_range": "18-30 秒",
+      "start_second": 18,
+      "end_second": 30,
+      "duration_seconds": 12,
+      "scene_title": "實作能力：從程式到專題開發",
+      "scene_purpose": "凸顯理論與實務並重，讓高中生感受到學習成果可以被實際做出來。",
+      "outline": "呈現課堂實驗、程式開發、APP、網站、智慧裝置或資料應用等學生實作歷程，展現從想法到作品的能力養成。"
+    },
+    {
+      "scene_number": 4,
+      "time_range": "30-42 秒",
+      "start_second": 30,
+      "end_second": 42,
+      "duration_seconds": 12,
+      "scene_title": "AI 與前瞻應用：打造未來科技",
+      "scene_purpose": "強化學系與 AI、資料科學及未來科技趨勢的連結。",
+      "outline": "聚焦人工智慧、機器學習、資料分析、影像辨識、自然語言處理或智慧系統等方向，展現學生可接觸並實作前瞻技術。"
+    },
+    {
+      "scene_number": 5,
+      "time_range": "42-52 秒",
+      "start_second": 42,
+      "end_second": 52,
+      "duration_seconds": 10,
+      "scene_title": "學習環境與團隊氛圍",
+      "scene_purpose": "建立情感連結，讓高中生想像自己在南大資工學習、合作與成長。",
+      "outline": "呈現師生討論、同儕合作、實驗室學習、專題交流、競賽或成果展示，傳達支持性與挑戰並存的學習環境。"
+    },
+    {
+      "scene_number": 6,
+      "time_range": "52-60 秒",
+      "start_second": 52,
+      "end_second": 60,
+      "duration_seconds": 8,
+      "scene_title": "收束號召：加入南大資工",
+      "scene_purpose": "收束學系特色與招生印象，留下清楚的品牌記憶與行動召喚。",
+      "outline": "以學系名稱、核心標語與形象畫面作結，呼應對 AI、程式與科技創新有興趣的高中生，邀請其從南大資工開始創造資訊未來。"
+    }
+  ],
+  "time_allocation_summary": {
+    "scene_count": 6,
+    "scene_durations_seconds": [8, 10, 12, 12, 10, 8],
+    "sum_seconds": 60,
+    "validation": "場景總時間為 60 秒，符合 55-65 秒要求。"
+  }
+}
